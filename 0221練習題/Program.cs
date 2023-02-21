@@ -13,13 +13,12 @@ namespace _0221練習題
             Console.WriteLine("輸入一串以逗號分隔的字串，並將其反向顯示");
             Console.Write("輸入: ");
             string input_str=Console.ReadLine();
-            var words = input_str.Split(',').ToList();
-            //var list = new List<string>();
-            var count= words.Count();
-            for(int i =0; i<count; i++)
-            {
-                words. = i;
-            }
+            var words = input_str.Split(',').Reverse();;
+            
+
+            Console.Write(string.Join(",",words));
+   
+           
             
             
             
